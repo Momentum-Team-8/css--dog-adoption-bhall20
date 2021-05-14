@@ -1,9 +1,104 @@
-header{
-    height: 75px;
-    width: 100%;
-    background-color: #004175;
-    border-color: #89DEEF;
-    padding: 10px;
-    font-family: 'Open Sans'
+*{
+box-sizing: border-box;
+margin: 0;
+padding:0;
 }
 
+header {
+    background-color: #004175;
+    padding: 15px;
+    border-bottom: 5px solid #89DEEF;
+    font-family: 'Open Sans';
+}
+
+h1 {
+font-family: 'Open Sans';
+}
+
+h3, p{
+    font-family: 'Oswald';
+}
+
+h4{
+font-family: 'Oswald';
+}
+
+li{
+font-family: 'Open Sans';
+font-size: 15px;
+display: inline-flex;
+padding: 3px
+margin: 3px
+flex-wrap: wrap;
+border-radius: 50px;
+background-color: #89DEEF;
+background-size: contain;
+background-repeat: np-repeat;
+word-wrap: normal;
+}
+
+ul{
+list-style-type: none;
+display: inline-block;
+}
+
+img{
+width: 350px;  
+height: 300px;  
+}
+
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+    margin:  0 auto;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+}
+
+.donate {
+    font-family: 'Oswald';
+    font-size: 50px;
+    display: inline-flex;
+    padding: 50px;
+    margin: 3px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: #A6A9F0;
+    background-size: contain;
+    background-repeat: np-repeat;
+    word-wrap: normal;
+    align: center;
+}
+
+.volunteer {
+    font-family: 'Oswald';
+    font-size: 50px;
+    display: inline-flex;
+    padding: 50px;
+    margin: 3px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: #A6A9F0;
+    word-wrap: normal;
+    align: center;
+}
+
+.location {
+    font-family: 'Oswald';
+    font-size: 50px;
+    display: inline-flex;
+    padding: 50px;
+    margin: 3px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: #A6A9F0;
+    word-wrap: normal;
+    align: center;
+    background-image: url('pattern.jpg');
+    }
